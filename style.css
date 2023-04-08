@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.125rem;
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h3{
+    margin-bottom: 10px;
+}
+li{
+    list-style: none;
+}
+.container{
+    margin:0  auto;
+    padding: 0 10px;
+    max-width: 1000px;
+    overflow: auto;
+}
+#navbar {
+    background: #444;
+    width: 100vw;
+    position: fixed;
+
+}
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left; 
+    margin-top:20px;
+}
+#navbar ul{
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding:20px; 
+}
+#navbar ul li a:hover, 
+.active{
+    background: #333;
+    color: goldenrod;
+}
+
+#header {
+    background:linear-gradient(180deg ,
+     rgba(81, 81, 82, 1) , rgba(218, 165, 32, 0.5)),url(./images/view-hotel.jpg) no-repeat center center/cover ;
+    height: 99vh;
+    color: #fff;
+   
+
+}
+.header-content h1{
+    text-transform: uppercases;
+    font-size:50px;
+}
+
+.header-content{    
+    margin: 240px 200px;
+    text-align: center;
+}
+.text-primary{
+    color: rgb(243, 177, 8);
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: #444;
+    color: goldenrod;
+}
+
+#intro-section{
+    background: #333;
+    margin: auto ;   
+    height: 100vh;
+}
+#intro-section .intro-img{
+    float: left;
+    background: url(./images/dark-hotel2.jpg) center center/cover;
+    min-height: 100%;
+    width: 50%;
+}
+.intro-content{   
+    float: right;
+    text-align: center;
+    padding: 200px 20px;
+    width: 50%;
+}
+.intro-content h1{
+    color: #eee2ee;   
+}
+.intro-content p{
+    color: #999;
+}
+#intro-section .btn{
+    margin-top: 30px;
+    background: #fff;
+    color: #444;
+
+}
+#intro-section .btn:hover{
+    background: goldenrod;
+    color: #fff;
+}
+
+#second-sec{   
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+}
+.box{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding: 30px;   
+}
+.icon-color{
+    color: #888 !important;
+}
+#second-sec .box i{
+    color: red !important;
+}
+#second-sec .box h1{
+    margin: 30px;
+}
+.bg-light{
+    background: #eee;
+    color: #333;
+}
+.bg-primary{
+    background: goldenrod;
+    color: #fff;
+}
+
+#footer {
+    margin-top: 2rem;
+    padding: 50px 20px 10px 100px;
+    background:linear-gradient(35deg ,
+     rgba(81, 81, 82, 0.8) , rgba(218, 165, 32, 0.7));
+    font-size: 1rem;
+    
+}
+#footer .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.main-col h2{
+    font-size: 30px;   
+    color: goldenrod; 
+
+}
+.col h3{
+    color: #e6e4e4;
+}
+.main-col p{
+    padding-right: 20px;
+    font-size: 14px;
+    color: #555;
+}
+.main-para{
+    color: #eee2ee !important;
+}
+#footer .row .col {
+
+    width: 33.33%;
+}
+
+#footer .col li {
+    display: block;
+    cursor: pointer;
+    color: #555;
+    padding-bottom:6px;
+}
+#footer .col li:hover {
+    color: #eee;
+}
